@@ -1,5 +1,5 @@
 {
-    "geode": "5.10.1",
+    "geode": "v5.10.1",
     "gd": {
         "win": "2.2081",
         "android": "2.2081"
@@ -8,7 +8,7 @@
     "id": "yourname.accessories",
     "name": "Accessories",
     "developer": "YourName",
-    "description": "Adds a fully customizable accessory system on top of the player icon (crowns, hats, glasses, etc.), configurable per gamemode and per player.",
+    "description": "Adds a fully customizable accessory system on top of the player icon, with support for different gamemodes, players and accessory folders.",
     "resources": {
         "spritesheets": {}
     }
