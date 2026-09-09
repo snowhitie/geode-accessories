@@ -8,7 +8,7 @@
     "id": "snowhitie.accessories",
     "name": "Accessories",
     "developer": "Snowhitie",
-    "description": "Adds a fully customizable accessory system on top of the player icon, with support for different gamemodes, players and accessory folders.",
+    "description": "Customizable accessories for Geometry Dash icons.",
     "resources": {
         "spritesheets": {}
     }
