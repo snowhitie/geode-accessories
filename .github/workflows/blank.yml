@@ -13,6 +13,7 @@ jobs:
 
     strategy:
       fail-fast: false
+
       matrix:
         include:
           - name: Windows 64-bit
@@ -35,7 +36,7 @@ jobs:
         id: build
         uses: geode-sdk/build-geode-mod@main
         with:
-          sdk: v5.10.1
+          sdk: 5.10.1
           target: ${{ matrix.target }}
           build-config: Release
 
