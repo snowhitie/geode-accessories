@@ -35,7 +35,7 @@ jobs:
         id: build
         uses: geode-sdk/build-geode-mod@main
         with:
-          sdk: v5.8.2
+          sdk: v5.10.1
           target: ${{ matrix.target }}
           build-config: Release
 
