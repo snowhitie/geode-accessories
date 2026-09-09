@@ -5,7 +5,7 @@
         "android": "2.2081"
     },
     "version": "v1.0.0",
-    "id": "yourname.accessories",
+    "id": "snowhitie.accessories",
     "name": "Accessories",
     "developer": "YourName",
     "description": "Adds a fully customizable accessory system on top of the player icon, with support for different gamemodes, players and accessory folders.",
