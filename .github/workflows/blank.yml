@@ -9,12 +9,10 @@ on:
 jobs:
   build:
     name: ${{ matrix.name }}
-
     runs-on: ${{ matrix.os }}
 
     strategy:
       fail-fast: false
-
       matrix:
         include:
           - name: Windows 64-bit
@@ -37,7 +35,7 @@ jobs:
         id: build
         uses: geode-sdk/build-geode-mod@main
         with:
-          sdk: 5.8.2
+          sdk: v5.8.2
           target: ${{ matrix.target }}
           build-config: Release
 
